@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+  }
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(10, 16, 51);     
+}
+
+#left img {
+    width: 200px;
+    height: 110px;
+    filter: invert(100%);
+}
+
+#left p {
+   margin-left: 40px;
+   color: white;
+}
+
+#left {
+    margin-left: 20px;
+}
+
+#center ul {
+    display: flex;
+    list-style: none;
+}
+
+#center ul li {
+    margin: 50px;
+}
+
+#center ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#right {
+    margin-right: 50px;
+    color: white;
+}
+
+#right p {
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+}
+
+.carousel-item h5 {
+    font-size: 4rem;
+    
+}
+
+.carousel-item p {
+    font-size: 2rem;
+    
+}
+
+.welcome h1 {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: rgb(10, 16, 51);
+}
+
+.welcome hr {
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    position: relative;
+    top: 60px;
+    margin-left: 25%;
+    
+}
+
+.welcome p {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: rgb(10, 16, 51);
+}
+
+.services {
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;   
+    opacity: 0.88; 
+}
+
+.services img {  
+    margin: 30px; 
+    width: 230px;
+    height: 280px;
+}
+
+#service1 {
+    position: relative;
+    top: 270px;
+    left: 130px;    
+    font-weight: bold;
+    color: white;
+    opacity: 1.0;
+}
+
+#service2 {
+    position: relative;
+    top: 230px;
+    left: 420px;     
+    font-weight: bold; 
+    color: white;
+}
+
+#service3 {
+    position: relative;
+    top: 190px;
+    left: 710px;    
+    font-weight: bold;
+    color: white;
+}
+
+#service4 {
+    position: relative;
+    top: 150px;
+    left: 1000px;    
+    font-weight: bold;
+    color: white;
+}
+
+#travel h1 {
+    position: relative;
+    top: 300px;
+    left: 880px;
+    color: rgb(10, 16, 51);
+}
+
+#travel p {
+    display: grid;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 770px;
+    color: rgb(10, 16, 51);
+}
+
+#carouselExampleFade img {
+    width: 1000px;
+    height: 500px;
+}
+
+#carouselExampleFade {
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    width: 650px;
+    height: 200px;
+}
+
+.hr1 {
+    border-top: 2px solid rgb(4, 1, 31);
+    width: 80%;
+    position: relative;
+    top: 300px;
+    margin-left: 10%;
+}
+
+#hotel img {
+    position: relative;
+    top: 350px;
+    left: 800px;
+    width: 650px;
+    height: 400;
+}
+
+#hotel h1 {
+    position: relative;
+    top: 100px;
+    left: 320px;
+    color: rgb(10, 16, 51);
+}
+
+#hotel p {
+    display: grid;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    color: rgb(10, 16, 51);
+}
+
+.hr2 {
+    border-top: 2px solid rgb(4, 1, 31);
+    width: 80%;
+    position: relative;
+    top: 280px;
+    margin-left: 10%;
+}
+
+.explore {
+    display: flex;
+    position: relative; 
+    top: 250px;   
+}
+
+.explore img {
+    width: 350px;
+    height: 350px;
+    margin: 80px;
+}
+
+#image1 h1 {
+    position: relative;
+    color: rgb(10, 16, 51);
+    font-size: 2rem;
+    top: 75px;
+    left: 100px;
+}
+
+#image2 h1 {
+    position: relative;
+    color: rgb(10, 16, 51);
+    font-size: 2rem;
+    top: 75px;
+    left: 100px;
+}
+
+#image1 p a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(10, 16, 51);
+    font-size: 1rem;
+    bottom: 70px;
+    left: 100px;
+}
+
+#image2 p a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(10, 16, 51);
+    font-size: 1rem;
+    bottom: 70px;
+    left: 100px;
+}
+
+.calender {
+    position: relative;
+    top: 150px;
+    left: 80px;
+}
+
+.calender i {
+    position: relative;
+    bottom: 72px;
+    font-size: 2rem;
+    color: rgb(10, 16, 51);    
+}
+
+.calender h1 {
+    position: relative;
+    bottom: 108px;
+    left: 40px;
+    font-size: 2rem;
+
+}
+
+#table {
+    position: relative;
+    bottom: 100px;
+}
+
+#table tr {    
+    height: 90px;    
+}
+
+th, td {    
+    color: rgb(10, 16, 51);
+    padding: 20px;   
+}
+
+#table a {
+    text-decoration: none;
+    color: rgb(10, 16, 51);    
+}
+
+footer {
+    content: "";
+    position: relative;
+    top: 250px;     
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(10, 16, 51);  
+    color: white;
+}
+
+#left2 {
+    position: relative;
+    bottom: 100px;
+}
+
+#left2 img {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: 200px;
+    height: 90px;
+    filter: invert(100%);
+}
+#left2 p{
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+#right2 {
+    position: relative;
+    left: 75vw;    
+}
+
+#right2 i {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.bottom {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.bottom div {
+    margin: 80px;    
+}
+
+#touch h1{
+    display: grid;
+    width: 300px;
+}
+
+#touch input {
+    position: relative;
+    left: 20px;
+}
+
+#touch p {
+    margin: 20px;
+}
+
+#company p {
+    margin: 20px;
+}
+
+#services p {
+    margin: 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact i {    
+    margin: 0px;
+}
+
+#contactinfo {
+    position: relative;
+    margin: 20px;
+}
+
+#phone {
+    position: relative;
+    bottom: 28px;
+    left: 40px;
+}
+
+#mail {
+    position: relative;
+    bottom: 22px;
+    left: 40px;
+}
+
+#location {
+    position: relative;
+    bottom: 25px;
+    left: 40px;
+}
+
+.bottomtext i {
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
